@@ -1,8 +1,8 @@
 const boxs=document.querySelectorAll('.box');
 const status=document.querySelector('#status');
 const btnRestart=document.querySelector('#restart');
-let x="<img src='image/download.png' width=90px height=90px>";
-let o="<img src='image/images.png'width=90px height=90px>";
+let x="<img src='./image/download.png' width=90px height=90px>";
+let o="<img src='./image/images.png'width=90px height=90px>";
 let win=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],
 [1,4,7],[2,5,8],[0,4,8],[2,4,6]];
 let options=["","","","","","","","",""];
